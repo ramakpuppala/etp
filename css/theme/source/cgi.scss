@@ -1,0 +1,50 @@
+/**
+ * Sky theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Open Sans', sans-serif;
+$mainColor: #E71635;
+$headingFont: 'Quicksand', sans-serif;
+$headingColor: #E71635;
+$headingLetterSpacing: -0.08em;
+$headingTextShadow: none;
+$backgroundColor: #fcf7f7;
+$linkColor: #8f0505;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #741313;
+
+// Fix links so they are not cut off
+.reveal a {
+	line-height: 1.3em;
+}
+
+// Background generator
+@mixin bodyBackground() {
+    @include radial-gradient( #e2dcdc, #f7fbfc );
+    background-image: url(https://www.cgi.com/sites/all/themes/cgi/logo.png), url(https://www.mass.gov/themes/custom/mass_theme/images/stateseal-color.png);
+    background-repeat: no-repeat, no-repeat;                     
+    background-position: top left, top right;
+    background-size: 125px, 100px;
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
