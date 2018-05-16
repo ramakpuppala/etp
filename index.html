@@ -25,7 +25,7 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown="slides/slide2.md"></section>
 			</div>
 		</div>
 
@@ -37,6 +37,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controls: true,
+            	progress: true,
+            	history: true,
+            	center: true,
+            	transition: 'convex',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
