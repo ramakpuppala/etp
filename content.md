@@ -27,8 +27,20 @@
 
 
 ### DUA
-- Cloud <!-- .element: class="fragment" data-fragment-index="1" -->
-- Agile <!-- .element: class="fragment" data-fragment-index="2" -->
-- DevOps <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Docker <!-- .element: class="fragment" data-fragment-index="1" -->
+- DevOps <!-- .element: class="fragment"  data-fragment-index="1" -->
+  - Docker <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Orchestration (Portainer) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Cloud <!-- .element: class="fragment" data-fragment-index="4" -->
+ - Monitoring & Alerting (Prometheus, Grafana, Mattermost) <!-- .element: class="fragment" data-fragment-index="5" -->
+ - Database driver upgrade (No Client or Tns files) <!-- .element: class="fragment" data-fragment-index="6" -->
+- Agile <!-- .element: class="fragment" data-fragment-index="7" -->
+ - TFS, Git & CICD <!-- .element: class="fragment" data-fragment-index="8" -->
+ - Communication (mattermost) <!-- .element: class="fragment" data-fragment-index="9" -->
 
+
+### Demo
+
+
+### Thank You
+### &
+### ?
