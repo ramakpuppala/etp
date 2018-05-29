@@ -21,7 +21,7 @@ body {
   background: radial-gradient(center, circle cover, #f7fbfc 0%, #e2dcdc 100%);
   background-image: url(https://www.cgi.com/sites/all/themes/cgi/logo.png), url(https://www.mass.gov/themes/custom/mass_theme/images/stateseal-color.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: top left, top right;
+  background-position: 1% 1%, 99% 1%;
   background-size: 125px, 100px;
   background-color: #fcf7f7; }
 
