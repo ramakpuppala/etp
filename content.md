@@ -52,7 +52,7 @@
     to create as many sub systems (containers) only bounded by the physical resources on the host.
   - Docker runs natively on linux, mac and windows. Previously Mac and Windows ran with the help of Docker Toolbox which created a linux vm.
 
-- How?
+- How ?
   - Images
   - Containers
   - Registries
